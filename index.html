@@ -1,32 +1,154 @@
-# Privacy Policy — DictateAI
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - DictateAI</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #cbd5e1;
+            --heading-color: #f8fafc;
+            --accent-color: #3b82f6;
+            --card-bg: #1e293b;
+        }
 
-**Last updated:** March 25, 2026
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
 
-## Data Collection
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border: 1px solid #334155;
+        }
 
-DictateAI does **not** collect, store, or transmit any personal data.
+        h1 {
+            color: var(--heading-color);
+            border-bottom: 2px solid #334155;
+            padding-bottom: 15px;
+            margin-top: 0;
+            text-align: center;
+        }
 
-## Speech Recognition
+        h2 {
+            color: var(--heading-color);
+            margin-top: 30px;
+        }
 
-All speech recognition is performed **locally in your browser** using the built-in [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API). Audio is processed by your browser's speech engine and is never sent to any third-party server by this extension.
+        p {
+            margin-bottom: 15px;
+        }
 
-## Permissions
+        .highlight {
+            color: var(--heading-color);
+            font-weight: 600;
+        }
 
-| Permission   | Why it's needed |
-|-------------|-----------------|
-| `activeTab`  | To inject the widget into the current page |
-| `scripting`  | To programmatically inject the content script when needed |
-| `storage`    | Reserved for future user preferences (not currently used) |
-| `tabs`       | To identify the active tab for keyboard shortcut handling |
+        .date {
+            text-align: center;
+            color: #94a3b8;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
 
-## Third-Party Services
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
 
-This extension does **not** use any third-party analytics, tracking, or advertising services.
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #334155;
+        }
 
-## Changes
+        th {
+            background-color: #0f172a;
+            color: var(--heading-color);
+            font-weight: 600;
+        }
 
-If this policy changes, the update will be reflected in this file and in the extension's version history.
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
 
-## Contact
+        a:hover {
+            text-decoration: underline;
+        }
 
-If you have questions about this policy, please open an issue on the [GitHub repository](https://github.com/Shahjiie/dictateai-extension/issues).
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy — DictateAI</h1>
+    <div class="date">Last updated: March 25, 2026</div>
+
+    <h2>Data Collection</h2>
+    <p>DictateAI does <span class="highlight">not</span> collect, store, or transmit any personal data.</p>
+
+    <h2>Speech Recognition</h2>
+    <p>All speech recognition is performed <span class="highlight">locally in your browser</span> using the built-in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API" target="_blank">Web Speech API</a>. Audio is processed by your browser's speech engine and is never sent to any third-party server by this extension.</p>
+
+    <h2>Permissions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Permission</th>
+                <th>Why it's needed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>activeTab</code></td>
+                <td>To inject the widget into the current page</td>
+            </tr>
+            <tr>
+                <td><code>scripting</code></td>
+                <td>To programmatically inject the content script when needed</td>
+            </tr>
+            <tr>
+                <td><code>storage</code></td>
+                <td>Reserved for future user preferences (not currently used)</td>
+            </tr>
+            <tr>
+                <td><code>tabs</code></td>
+                <td>To identify the active tab for keyboard shortcut handling</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Third-Party Services</h2>
+    <p>This extension does <span class="highlight">not</span> use any third-party analytics, tracking, or advertising services.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the update will be reflected in this file and in the extension's version history.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this policy, please open an issue on the <a href="https://github.com/Shahjiie/dictateai-extension/issues" target="_blank">GitHub repository</a>.</p>
+
+    <div class="footer">
+        &copy; 2026 DictateAI. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
